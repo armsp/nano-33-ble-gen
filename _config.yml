@@ -17,7 +17,7 @@ title: Arduino Nano 33 BLE Guide
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Writeups/Webpage for all things Arduino Nano 33 BLE (nRF52840) related to help you get up to speed and experiment.
-baseurl: "" # the subpath of your site, e.g. /blog
+#baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
@@ -33,7 +33,7 @@ color_scheme: nil
 #theme: "just-the-docs"
 remote_theme: pmarsceill/just-the-docs
 
-markdown: kramdown
+#markdown: kramdown
 #theme: minima
 plugins:
   - jekyll-seo-tag

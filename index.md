@@ -2,8 +2,6 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
-permalink: /
 ---
 
 # All things Arduino Nano 33 Bluetooth
@@ -16,16 +14,12 @@ I was able to get the Nano 33 BLE in July as I had preordered it so I got down t
 
 ---
 
-
-
 ## Important Differences
 The board as displayed on the Website is different than what you actually get. There is actually a RGB LED on board that you don't see in the official image and the official image has an IC that isn't there in the real board. Take a look -  
 
-<!-- ![Offical Image](https://store-cdn.arduino.cc/usa/catalog/product/cache/1/image/500x375/f8876a31b63532bbba4e781c30024a0a/a/b/abx00030-front_1_1.jpg) ![Real Board](./nano33ble.jpg) -->
-
 --- | ---
 :-------------------------:|:-------------------------:
-![Offical Image](https://store-cdn.arduino.cc/usa/catalog/product/cache/1/image/500x375/f8876a31b63532bbba4e781c30024a0a/a/b/abx00030-front_1_1.jpg)  |  ![Real Board](./nano33ble.jpg)
+![Offical Image](./nanoble_old.jpg)  |  ![Real Board](./nanoble_new.jpg)
 
 ---
 
