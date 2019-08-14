@@ -1,0 +1,13 @@
+*.gem
+.bundle
+.sass-cache
+_site
+Gemfile.lock
+node_modules
+assets
+bin
+_includes
+_layouts
+lib
+_sass
+script
