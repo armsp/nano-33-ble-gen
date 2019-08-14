@@ -11,3 +11,6 @@ _layouts
 lib
 _sass
 script
+*.json
+*.gemspec
+Rakefile
