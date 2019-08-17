@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Getting Started
 nav_order: 1
 ---
 
@@ -88,19 +88,4 @@ Following are the usual ones(header pins) as mentioned in the Tech Specs.
 ```
 ---
 
-### BLE Experiments
-Testing the bluetooth connection is simple enough. We will use the inbuilt the Peripheral Examples from [this library](https://github.com/arduino-libraries/ArduinoBLE) that you can install via the [Library manager](https://www.arduino.cc/en/guide/libraries#toc3). You can install the [nRF Connect](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp) App for the connection.
 
-#### More custom BLE Experiments
-
-#### TODO
-Controlling Led Characteristics using a python script from Desktop/PC.
-
-### Audio Experiments
-Nano 33 BLE vs Nano 33 BLE Sense
-
-| ![Nano 33 BLE](./nanoble_new.jpg) | ![Nano 33 BLE Sense](./nanoble_sense_labled.jpg) |
-
-To save _setup costs_ often boards that are efectively the same have exactly the same schematics and layout even though one may lack certain ICs. That is exactly the case with Nano 33 BLE and Nano 33 BLE Sense.  
-Since I have Nano 33 BLE, all I need to do is get the relevant ICs and solder them at their respective places and I have something in between Nano 33 BLE and Nano 33 BLE Sense !  
-I am especially interested in Audio because of the immense potential with audio based applications with the DSP core of the ARM Cortex M4 especially the Artificial Intelligence and Machine Learning capabilities like running Tensorflow Lite !  
