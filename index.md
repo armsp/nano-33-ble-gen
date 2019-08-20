@@ -38,6 +38,16 @@ The answer led me to the repository where the actual **board pin definitions** a
 | RGB LED BLUE | 24u |
 | LED_PWR | 25u |
 
+Or just use the following macros -
+
+| LED MACRO | LED |
+| :---: | :---: |
+| PIN_LED | LED on pin 13 (Amber)|
+| LEDR | Red |
+| LEDG | Green |
+| LEDB | Blue |
+| LED_PWR | Power LED (Green)|
+
 **Note:** _The 2 general LEDs are connected as usual: when the digital pin they are attached to goes high, they glow. But the RGB LED is wired in the opposite way i.e it's connected to the power rail so you need to drive the pins they are connected with to LOW to turn them ON._
 
 | PIN-13 | POWER | RGB |
