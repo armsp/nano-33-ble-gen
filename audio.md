@@ -7,8 +7,8 @@ nav_order: 2
 ## Audio Experiments
 ### **SETUP**
 
-Nano 33 BLE vs Nano 33 BLE Sense
-
+| Nano 33 BLE | Nano 33 BLE Sense |
+| :---: | :---: |
 | ![Nano 33 BLE](./nanoble_new_clean.jpg) | ![Nano 33 BLE Sense](./nanoble_sense_labled.jpg) |
 
 To save _setup costs_ often boards that are efectively the same have exactly the same schematics and layout even though one may lack certain ICs. That is exactly the case with Nano 33 BLE and Nano 33 BLE Sense. _That's why you have unpopulated places on the Nano 33 BLE_!  
