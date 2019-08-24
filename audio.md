@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Audio
-nav_order: 4
+nav_order: 2
 ---
 
 ## Audio Experiments
@@ -16,7 +16,8 @@ Since I have Nano 33 BLE, all I need to do is get the relevant ICs and solder th
 I am especially interested in Audio because of the immense potential with audio based applications with the DSP core of the ARM Cortex M4 especially the Artificial Intelligence and Machine Learning capabilities like running Tensorflow Lite !  
 I got STMicroelectronics to send me some free samples of their MP34DT05 microphone to solder on my board.
 This is what I ended up with -  
-![My Nano BLE](./nanoble_microphone.jpg) | ![Original Nano BLE](./nanoble_new_clean.jpg)
+
+| ![My Nano BLE](./nanoble_microphone.jpg) | ![Original Nano BLE](./nanoble_new_clean.jpg) |
 
 ### **Testing the Microphone**
 The Microphone outputs audio in PDM format so we can use the Example Sketch that comes inbuilt **PDMSerialPlotter** from `File->Examples->PDM->PDMSerialPlotter`.
