@@ -17,6 +17,8 @@ I am especially interested in Audio because of the immense potential with audio 
 I got STMicroelectronics to send me some free samples of their MP34DT05 microphone to solder on my board.
 This is what I ended up with -  
 
+| Nano 33 BLE with Microphone | Nano 33 BLE |
+| :---: | :---: |
 | ![My Nano BLE](./nanoble_microphone.jpg) | ![Original Nano BLE](./nanoble_new_clean.jpg) |
 
 ### **Testing the Microphone**
