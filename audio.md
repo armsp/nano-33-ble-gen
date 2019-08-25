@@ -29,7 +29,24 @@ Outputs -
 ![plot2](./plot2.png)
 ![plot3](./plot3.png)
 
-#### More custom Audio Experiments
+
+### On a sidenote
+Where is the _PDM Library_ located? Where are its files?  
+
+(Answer taken verbatim from a reply)  
+Here's how you can easily find it where it it is installed on your computer:
+
+1. Tools > Board > Arduino Nano 33 BLE
+2. File > Examples > PDM > PDMSerialPlotter
+3. Sketch > Show Sketch Folder
+
+This will open the PDM/examples/PDMSerialPlotter folder. You will find the source files of the library under PDM/src
+
+The same technique can be used to find the location of any library you have installed.
+
+Be aware that the libraries bundled with hardware cores are only accessible when a board of that core is selected. Each hardware core comes bundles with it's own architecture-specific version of the standard libraries like SPI and Wire. So you will have multiple versions of these libraries installed on your computer and the one that will be accessed depends on the Tools > Board menu selection at the time.
+
+#### More Audio Experiments
 - Integrating Serial with Processing to perform interesting transforms.
 - Getting the ArduinoSound Library to work - FFTs and other things.
 - Changing the inbuilt parameters of the PDM Library as right now changing anything doesn't work at all.
