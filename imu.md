@@ -12,7 +12,7 @@ nav_order: 30
 # Sensor Fusion
 
 ## Kalman Filters
-
+https://github.com/TKJElectronics/Example-Sketch-for-IMU-including-Kalman-filter/tree/master/IMU/MPU6050
 ## Extended Kalman Filters
 https://github.com/simondlevy/TinyEKF
 ## Madgwick

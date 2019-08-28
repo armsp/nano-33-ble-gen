@@ -3,6 +3,8 @@ layout: page
 title: BLE Central
 nav_order: 5
 ---
+## Getting started
+BLE Central Support has been added. Please read the [blog](https://blog.arduino.cc/2019/08/27/ble-central-supported-added-to-arduinoble/) and check out the inbuilt examples.
 
 coming soon...
 
