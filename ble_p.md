@@ -9,6 +9,7 @@ Testing the bluetooth connection is simple enough. We will use the inbuilt the P
 
 #### More custom BLE Experiments
 
+#### Web bluetooth
+
 #### TODO
 Controlling Led Characteristics using a python script from Desktop/PC.
----
