@@ -4,26 +4,31 @@ title: IMU
 nav_order: 30
 ---
 # Getting Started
+1. Official [Arduino LSM9DS1](https://www.arduino.cc/en/Reference/ArduinoLSM9DS1) Library
+2. Run the Example Sketches: File -> Examples -> Arduino_LSM9DS1 -> SimpleAccelerometer/SimpleGyroscope/SimpleMagnetometer
 
-# Smoothing
+# Madgwick
+* Refer to the Madgwick research paper and website [here](https://x-io.co.uk/open-source-imu-and-ahrs-algorithms/)
+* [Arduino Madgwick Library](https://github.com/arduino-libraries/MadgwickAHRS)
+* Code and Visualization for Arduino Madgwick [here](https://github.com/armsp/nano-33-ble-gen/tree/master/imu/arduino_madgwick)
+* Code and Visualization for PJRC Madgwick [here](https://github.com/armsp/nano-33-ble-gen/tree/master/imu/pjrc_madgwick)
 
-# Denoising
+# Mahony
+Code and Visualization [here](https://github.com/armsp/nano-33-ble-gen/tree/master/imu/pjrc_mahony)
 
-# Sensor Fusion
+---
 
+# TODO
+## Smoothing
+
+## Denoising
+
+## Sensor Fusion
+https://github.com/aster94/SensorFusion
 ## Kalman Filters
 https://github.com/TKJElectronics/Example-Sketch-for-IMU-including-Kalman-filter/tree/master/IMU/MPU6050
 ## Extended Kalman Filters
 https://github.com/simondlevy/TinyEKF
-## Madgwick
-https://x-io.co.uk/open-source-imu-and-ahrs-algorithms/
-https://github.com/arduino-libraries/MadgwickAHRS
-https://github.com/PaulStoffregen/MadgwickAHRS
-https://github.com/aster94/SensorFusion
-## Mahony (May ignore)
-https://github.com/PaulStoffregen/MahonyAHRS
-https://github.com/aster94/SensorFusion
-
 ## Other Filters
 
-# Step Counter
+## Step Counter
