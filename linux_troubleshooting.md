@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Linux Troubleshooting
-nav_order: 10
+nav_order: 100
 ---
 My experience with Arduino on Ubuntu was excruciatingly painful. On Windows everything seems to just work :man_shrugging: . After some digging up I tried the following and it actually helped a lot.   
 Hopefully one of them will work for you -
