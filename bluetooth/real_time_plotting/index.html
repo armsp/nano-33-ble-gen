@@ -29,12 +29,13 @@
     let myBLE;
     var data = [];
     var g;
+    var flag = 100;
 
     //Graphing
     $(document).ready(function () {
       //var data = [];
       var t = new Date();
-      for (var i = 10; i >= 0; i--) {
+      for (var i = flag; i >= 0; i--) {
         var x = new Date(t.getTime() - i * 1000);
         data.push([x, myValue, myValue, myValue]);
       }
@@ -43,16 +44,16 @@
         {
           //color: 'red',
           strokeWidth: 2,
-          rollPeriod: 10,
+          //rollPeriod: 10,
           drawPoints: true,
           //showRoller: true,
-          //valueRange: [-2000, 2000],
+          valueRange: [-6, 6],
           labels: ['Time', 'X', 'Y', 'Z'],
-          colors: ['#ff5e57', '#1dd1a1', '#3B3B98'],
+          colors: ['#3B3B98', '#ff5e57', '#1dd1a1'],
           fillGraph: true,
           pointSize: 3,
           stepPlot: false,
-          pixelsPerLabel: 10,
+          //pixelsPerLabel: 10,
         });
     }
     );
@@ -62,7 +63,15 @@
       var x = ax;
       var y = ay;
       var z = az;
-      //data.shift();
+      data.shift();
+      // if (flag>0){
+      //   flag-=1;
+      //   data.shift();
+      //   data.push([d, x, y, z]);
+      // }
+      // else{
+      //   data.push([d, x, y, z]);
+      // }
       data.push([d, x, y, z]);
       g.updateOptions({ 'file': data });
 
