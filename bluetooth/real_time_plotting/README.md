@@ -5,7 +5,8 @@
 
 NOTE
 ----
-The p5.ble.js library has some issues handling the float values. Even though we are passing string here, I would recommend you to use the local p5.ble.js and p5.js libraries till the Fix is merged to the library.
+<strike>The p5.ble.js library has some issues handling the float values. Even though we are passing string here, I would recommend you to use the local p5.ble.js and p5.js libraries till the Fix is merged to the library.</strike>  
+Fix has been issued. Changes have been made to use the appropriate CDN.
 
 TODO
 ----
