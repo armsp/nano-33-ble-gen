@@ -2,13 +2,10 @@
 <html>
 
 <head>
-  <title>Web Bluetooth Accelerometer</title>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
-  <script src="https://unpkg.com/p5ble@latest/dist/p5.ble.js" type="module"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script> -->
-  <script src="p5.ble.js"></script>
-  <script src="p5/p5.js"></script>
-  <script src="p5/addons/p5.dom.js"></script>
+  <title>Web Bluetooth Accelerometer Plotter</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.js"></script>
+  <script src="https://unpkg.com/p5ble@0.0.5/dist/p5.ble.js"></script>
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dygraph/2.1.0/dygraph.min.js"></script>
@@ -29,15 +26,16 @@
     let myBLE;
     var data = [];
     var g;
-    var flag = 100;
+    var dataPoints = 100;
+    //var plotFlag = true;
 
     //Graphing
     $(document).ready(function () {
       //var data = [];
       var t = new Date();
-      for (var i = flag; i >= 0; i--) {
+      for (var i = dataPoints; i >= 0; i--) {
         var x = new Date(t.getTime() - i * 1000);
-        data.push([x, myValue, myValue, myValue]);
+        data.push([x, NaN, NaN, NaN]);
       }
 
       g = new Dygraph(document.getElementById("div_g"), data,
@@ -53,19 +51,30 @@
           fillGraph: true,
           pointSize: 3,
           stepPlot: false,
+          ylabel: "X, Y, Z"
           //pixelsPerLabel: 10,
         });
-    }
-    );
+    });
+
     function plot(ax, ay, az) {
+      // if (plotFlag === true){
+      //   g.updateOptions({'file': []});
+      //   var t = new Date();
+      //   for (var i = dataPoints; i >= 0; i--) {
+      //     var x = new Date(t.getTime() - i * 1000);
+      //     data.push([x, NaN, NaN, NaN]);
+      //   }
+      //   g.updateOptions({'file': data});
+      //   plotFlag = false;
+      // }
       //My test
       var d = new Date();  // current time
       var x = ax;
       var y = ay;
       var z = az;
       data.shift();
-      // if (flag>0){
-      //   flag-=1;
+      // if (dataPoints>0){
+      //   dataPoints-=1;
       //   data.shift();
       //   data.push([d, x, y, z]);
       // }
