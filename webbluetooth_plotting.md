@@ -17,10 +17,30 @@ title: Web Bluetooth Accelerometer Graphing
   <!-- <script src="smooth-plotter.js"></script> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dygraph/2.1.0/dygraph.min.css" />
   <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
 
 </head>
+<style>
+  h2, h3, p {
+    font-family: 'Ubuntu', sans-serif;
+  }
+</style>
+
 
 <body>
+  <h2 style="text-align: center">Web Bluetooth Accelerometer Plotter</h2>
+  <h3 style="text-align: center; color: red;" id="compatiblity"></h3>
+  <script>
+    if ("bluetooth" in navigator) {
+      console.log("Supports Web Bluetooth");
+      // else the browser doesn't support bluetooth
+    } else {
+      console.log("Browser doesn't support Web Bluetooth");
+      alert("WARNING: This browser doesn't support Web Bluetooth. Try using Chrome.");
+      document.getElementById("compatiblity").innerHTML = "Your browser doesn't support Web Bluetooth. Try using Chrome.";
+    }
+  </script>
   <div id="div_g" style="width:150vh; height:40vh;"></div>
   <script>
 
