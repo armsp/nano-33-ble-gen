@@ -30,6 +30,13 @@ title: Web Bluetooth Accelerometer Graphing
 
 <body>
   <h2 style="text-align: center">Web Bluetooth Accelerometer Plotter</h2>
+  <div>
+    <ol>
+      <li>Upload <a href="https://github.com/armsp/nano-33-ble-gen/tree/master/bluetooth/real_time_plotting/accelerometer_xyz_plotting">this</a> sketch to your Nano 33 BLE</li>
+      <li>Open Serial Monitor (it's is important otherwise the data transfer won't take place)</li>
+      <li>Click the "Connect" button and follow the prompt</li>
+    </ol>
+  </div>
   <h3 style="text-align: center; color: red;" id="compatiblity"></h3>
   <script>
     if ("bluetooth" in navigator) {
