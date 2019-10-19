@@ -24,5 +24,7 @@ Other tools (not necessarily python based) -
 - l2ping
 - udigen
 
-Here is a recording of getting real time accelerometer data via bluetooth by subscribing to notifications -  
+Check out and run the examples from the [sample code](https://github.com/armsp/nano-33-ble-gen/tree/master/bluetooth/python_bluetooth)  
+
+Here is a recording of getting real time accelerometer data via bluetooth by subscribing to notifications(this is the [bluetooth_peripheral.py](https://github.com/armsp/nano-33-ble-gen/blob/master/bluetooth/python_bluetooth/bluetooth_peripheral.py) example) -  
 ![accelerometer_notification](python_bluetooth_notify.svg)
