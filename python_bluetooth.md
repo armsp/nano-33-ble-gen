@@ -14,17 +14,17 @@ Some of the resources I came across during my research are -
 - BLE Suite
 - PyBT
 - Adafruit Python Bluefriuit LE
-- 
 
 Other tools (not necessarily python based) -
-* bettercap
+- bettercap
 - Bleah
 - hcitool, hciconfig, hcidump
 - sdptool
 - l2ping
 - udigen
 
-Check out and run the examples from the [sample code](https://github.com/armsp/nano-33-ble-gen/tree/master/bluetooth/python_bluetooth)  
+**Check out and run the examples from the [sample code](https://github.com/armsp/nano-33-ble-gen/tree/master/bluetooth/python_bluetooth)**  
 
-Here is a recording of getting real time accelerometer data via bluetooth by subscribing to notifications(this is the [bluetooth_peripheral.py](https://github.com/armsp/nano-33-ble-gen/blob/master/bluetooth/python_bluetooth/bluetooth_peripheral.py) example) -  
+Here is a recording of getting real time accelerometer data via bluetooth by subscribing to notifications (this is the [bluetooth_peripheral.py](https://github.com/armsp/nano-33-ble-gen/blob/master/bluetooth/python_bluetooth/bluetooth_peripheral.py) example) -  
+
 ![accelerometer_notification](python_bluetooth_notify.svg)
