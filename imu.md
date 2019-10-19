@@ -1,7 +1,7 @@
 ---
 layout: page
 title: IMU
-nav_order: 30
+nav_order: 20
 ---
 # Getting Started
 1. Official [Arduino LSM9DS1](https://www.arduino.cc/en/Reference/ArduinoLSM9DS1) Library

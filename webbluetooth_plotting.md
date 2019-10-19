@@ -1,6 +1,6 @@
 ---
 layout: real-time-plotting
-nav_order: 99
+nav_order: 70
 title: Web Bluetooth Accelerometer Graphing
 ---
 

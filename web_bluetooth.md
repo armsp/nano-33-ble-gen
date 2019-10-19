@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Web Bluetooth
-nav_order: 6
+nav_order: 60
 ---
 
 # Quickstart

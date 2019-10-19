@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Audio
-nav_order: 2
+nav_order: 10
 ---
 
 ## Audio Experiments
