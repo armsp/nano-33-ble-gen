@@ -48,7 +48,7 @@ title: Web Bluetooth Accelerometer Graphing
       document.getElementById("compatiblity").innerHTML = "Your browser doesn't support Web Bluetooth. Try using Chrome.";
     }
   </script>
-  <div id="div_g" style="width:150vh; height:40vh;"></div>
+  <div id="div_g" style="width:150vh; height:40vh; margin: auto;"></div>
   <script>
 
     const serviceUuid = "19b10000-e8f2-537e-4f6c-d104768a1214";
